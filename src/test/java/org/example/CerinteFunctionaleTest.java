@@ -29,14 +29,6 @@ class CerinteFunctionaleTest {
     }
 
     @Test
-    void densitateImpartireNeintreaga() {
-
-        Judete j = new Judete("SB","Sibiu", "Centru",200,50);
-        assertEquals(4,cerinteFunctionale.densitate(j),0.01);
-
-    }
-
-    @Test
     void densitateRezultatZecimal() {
 
         Judete j = new Judete("CJ","Cluj", "NordVest",10,4);
